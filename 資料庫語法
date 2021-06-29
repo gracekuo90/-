@@ -1,0 +1,84 @@
+資料庫： `網設專題`
+CREATE DATABASE IF NOT EXISTS `網設專題` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `網設專題`;
+
+資料表結構 `cart_milkshop`
+CREATE TABLE `cart_milkshop` (
+  `shop` varchar(15) NOT NULL DEFAULT '',
+  `name` varchar(45) NOT NULL DEFAULT '',
+  `size` varchar(2) NOT NULL DEFAULT '',
+  `sugar` varchar(5) NOT NULL DEFAULT '',
+  `ice` varchar(5) NOT NULL DEFAULT '',
+  `qty` int(5) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+資料表結構 `cart_coco`
+CREATE TABLE `cart_coco` (
+  `shop` varchar(15) NOT NULL DEFAULT '',
+  `name` varchar(15) NOT NULL DEFAULT '',
+  `sugar` varchar(5) NOT NULL DEFAULT '',
+  `ice` varchar(5) NOT NULL DEFAULT '',
+  `qty` int(5) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+資料表結構 `cart_macu`
+CREATE TABLE `cart_macu` (
+  `shop` varchar(15) NOT NULL DEFAULT '',
+  `name` varchar(45) NOT NULL DEFAULT '',
+  `size` varchar(2) NOT NULL DEFAULT '',
+  `sugar` varchar(5) NOT NULL DEFAULT '',
+  `ice` varchar(5) NOT NULL DEFAULT '',
+  `qty` int(5) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+資料表結構 `account`
+CREATE TABLE `account` (
+  `name` varchar(45) NOT NULL DEFAULT '',
+  `username` varchar(15) NOT NULL DEFAULT '',
+  `email` varchar(45) NOT NULL DEFAULT '',
+  `phone_number` int(10) NOT NULL,
+  `address` varchar(100) NOT NULL DEFAULT ''
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+資料表結構 `order`
+CREATE TABLE `order` (
+  `date` date NOT NULL DEFAULT '2000-01-01',
+  `name` varchar(45) NOT NULL DEFAULT '',
+  `username` varchar(15) NOT NULL DEFAULT '',
+  `phone_number` int(10) NOT NULL,
+  `shop` varchar(15) NOT NULL DEFAULT '',
+  `drinks` varchar(45) NOT NULL DEFAULT '',
+  `size` varchar(2) NOT NULL DEFAULT '',
+  `sugar` varchar(5) NOT NULL DEFAULT '',
+  `ice` varchar(5) NOT NULL DEFAULT '',
+  `qty` int(5) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+資料庫： CSV_DB2
+CREATE DATABASE IF NOT EXISTS CSV_DB2 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `CSV_DB2`;
+
+-- -------------------------------------------
+匯入 
+
+
+-- --------------------------------------------------------
+
+資料庫： php
+CREATE DATABASE IF NOT EXISTS php DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `php`;
+
+-- -----------------------------------------
+--
+-- 資料表結構 `search`
+--
+
+CREATE TABLE `search` (
+  `id` varchar(4) NOT NULL,
+  `商店名` varchar(4) DEFAULT NULL,
+  `品名` varchar(10) DEFAULT NULL,
+  `分類` varchar(6) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
