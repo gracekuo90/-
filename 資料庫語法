@@ -43,7 +43,7 @@ CREATE TABLE `account` (
 
 資料表結構 `order`
 CREATE TABLE `order` (
-  `date` date NOT NULL DEFAULT '2000-01-01',
+  `date` datetime NOT NULL DEFAULT '2000-01-01 01:01:01',
   `name` varchar(45) NOT NULL DEFAULT '',
   `username` varchar(15) NOT NULL DEFAULT '',
   `phone_number` int(10) NOT NULL,
