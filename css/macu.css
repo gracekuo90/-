@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgb(255 0 0);
+}
+/*header*/
+header {/*logo字體*/
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logo {/*logo字體*/
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 139px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+/* div for Links in header */
+#headerLinks {  /*LOGO右邊*/
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {/*login字體*/
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding-left: 66px;
+	font-size: 20px;
+}
+#headerLinks a:hover {
+    color: rgb(255 0 0);
+}
+/* Offer text banner*/
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	/*關鍵食克那塊*/
+    background: url("http://www.eplustw.com.tw/upload/product/images/120171213163610.JPG");
+    background-size: 50%;
+	background-position:right;
+    background-color: rgba(255, 188, 88, 0.534);
+	background-repeat: no-repeat;
+    padding-left: 115px;
+    padding-top: 57px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+	color: rgb(0, 0, 0);
+}
+#offer h2{
+	margin-left: 0px;
+	text-shadow:  0.08em 0.08em rgb(255, 255, 255);
+	margin-top: 10px;
+    font-size: 30px;
+}
+
+#offer p{
+	margin-left: 20px;
+	text-shadow:  0.1em 0.1em rgb(255, 255, 255);
+	margin-top: 19px;
+	font-size: 15px;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {    /*目錄那塊*/
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(0, 0, 0);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: #ffe9af70;
+	padding-top: 15px;
+	height: 550px;
+	font-weight: bold;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	height: 600px;
+	overflow: auto;
+	width: 80%;
+	text-align: center;
+	padding-left: 0%;
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+	text-align: left;/*menu-coco字體*/
+	color: rgb(0, 0, 0);
+	position: relative;
+	left: 0%;
+}
+/* Search field in sidebar */
+#content .sidebar #search {
+	width: 100%;/*search區塊*/
+	border-radius: 0px;
+	height: 42px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	margin-bottom: 21px;
+}
+/* Whole page content */
+#mainWrapper {/*link字體*/
+	width: 89.4%;
+	padding-left: 10%;
+    font-size: 34px;
+}
+/*menu elements */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -20px;
+	padding-top: 12px;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;/*熱量字體*/
+	color: rgb(140 68 68);
+    font-size: 16px;
+	padding-left: 16px;
+	padding-right: 10px;
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	width: 20%;
+}
+.productInfo .productimg {
+	padding-left:20%;
+	padding-right:20%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {/*價錢字體*/
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 19px;
+	padding-top: 10px;
+	position: relative;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {/*品項字體*/
+	position: relative;
+	top: -15px;
+	font-size: 18px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	white-space: pre-wrap;
+	height: 26.4px;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {/*buybutton字體*/
+	position: relative;
+	top: -28px;
+	width: 50.4%;
+	background-color: #d80011;
+	height: 35px;
+	color: rgb(255, 255, 255);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+.modal-header{
+    color: rgba(146,146,146,1.00);
+}
+.producttitle{
+	position:relative;/*品項標題字體*/
+	background-color: rgb(255 88 114 / 32%);
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	left: 230px;
+	width: 50%;
+}
+/* footer */
+#mainWrapper footer {/*最下方區塊*/
+	clear: both;
+	overflow: auto;
+    background: url("http://www.maculife.com.tw/upload/banner/images/220210111171540.JPG");
+    background-size: 100%;
+	background-position:center;
+	background-color: rgba(255, 188, 88, 0.534);
+    background-repeat: no-repeat;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(235, 169, 69, 0.315);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgb(0, 0, 0);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 100%;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 20px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+	margin-left: 70%;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+/* sidebar */
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0px;
+}
+/* horizontal separators in sidebar */
+#content .sidebar hr {
+	display: none;
+}
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/*menu headings in sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* Unordered List of links */
+#menubar .menu ul {
+	display: inline;
+}
+/*list elements */
+#menubar .menu ul li {
+	display: inline;
+	font-size: medium;
+	padding-left: 0%;
+	padding-right: 3%;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus in sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0px;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 16px;
+}
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 20%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/*Menu headings in sidebar */
+#menubar .menu h2 {
+	width: 100%;
+	display: block;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Unordered list for menu elements */
+.menu ul {
+	position: relative;
+	padding-left: 24%;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}
