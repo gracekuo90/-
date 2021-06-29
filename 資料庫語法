@@ -55,27 +55,21 @@ CREATE TABLE `order` (
   `qty` int(5) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+匯入 milkshop_price.sql、coco.sql、macu.sql
 -- --------------------------------------------------------
 
 資料庫： CSV_DB2
 CREATE DATABASE IF NOT EXISTS CSV_DB2 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `CSV_DB2`;
 
--- -------------------------------------------
-匯入 
-
-
+匯入 milkshop_c.sql、coco_c.sql、macu_c.sql
 -- --------------------------------------------------------
 
 資料庫： php
 CREATE DATABASE IF NOT EXISTS php DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `php`;
 
--- -----------------------------------------
---
--- 資料表結構 `search`
---
-
+資料表結構 `search`
 CREATE TABLE `search` (
   `id` varchar(4) NOT NULL,
   `商店名` varchar(4) DEFAULT NULL,
