@@ -109,9 +109,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -120,6 +122,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -168,9 +171,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <<input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -179,6 +184,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -226,9 +232,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -237,6 +245,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -285,9 +294,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -296,6 +307,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -344,9 +356,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -355,6 +369,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -404,9 +419,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -415,6 +432,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -462,9 +480,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -473,6 +493,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -520,9 +541,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -531,6 +554,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -578,9 +602,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -589,6 +615,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -636,9 +663,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -647,6 +676,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
@@ -696,9 +726,11 @@
                       </div>
                       <div>
                         <font face="標楷體">甜度:
-                          <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                        <input type="radio" name="Sugar" value="正常糖" checked="True" />正常糖
+                          <input type="radio" name="Sugar" value="八分糖" />八分糖
                           <input type="radio" name="Sugar" value="五分糖" />五分糖
                           <input type="radio" name="Sugar" value="三分糖" />三分糖
+                          <input type="radio" name="Sugar" value="一分糖" />一分糖
                           <input type="radio" name="Sugar" value="無糖" />無糖
                           <br />
                         </font>
@@ -707,6 +739,7 @@
                         <font face="標楷體">冰量:
                           <input type="radio" name="Ice" value="正常冰" checked="True" />正常冰
                           <input type="radio" name="Ice" value="少冰" />少冰
+                          <input type="radio" name="Ice" value="微冰" />微冰
                           <input type="radio" name="Ice" value="去冰" />去冰
                           <input type="radio" name="Ice" value="溫" />溫
                           <input type="radio" name="Ice" value="熱" />熱
